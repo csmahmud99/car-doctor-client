@@ -1,10 +1,10 @@
 import Banner from "../Banner/Banner";
 import HomeAbout from "../HomeAbout/HomeAbout";
-import HomeServices from "../HomeServices/HomeServices";
+import HomeServices from "../HomeServices/HomeServices/HomeServices";
 
 const Home = () => {
     return (
-        <div className="my-8">
+        <div className="mt-10 mb-20">
             <Banner />
             <HomeAbout />
             <HomeServices />
