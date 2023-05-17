@@ -1,15 +1,25 @@
-
+import person from "../../../assets/images/about_us/person.jpg";
+import parts from "../../../assets/images/about_us/parts.jpg";
 
 const HomeAbout = () => {
     return (
         <div>
-            <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content flex-col lg:flex-row">
-                    <img src="/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" />
-                    <div>
-                        <h1 className="text-5xl font-bold">Box Office News!</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn btn-primary">Get Started</button>
+            <div className="hero min-h-screen bg-white">
+                <div className="hero-content flex-col md:flex-row">
+                    <div className="md:w-1/2 relative mb-10">
+                        <img src={person} className="w-3/4 rounded-lg shadow-2xl" />
+                        <img src={parts} className="w-1/2 absolute top-1/2 right-5 left-44 rounded-lg shadow-2xl border-8 border-white" />
+                    </div>
+                    <div className="md:w-1/2 space-y-5">
+                        <h3 className="text-xl text-red-600 font-bold">About Us</h3>
+                        <h1 className="text-5xl font-bold">We are qualified <br /> & of experience <br /> in this field</h1>
+                        <p>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                        </p>
+                        <p>
+                            the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                        </p>
+                        <button className="btn btn-outline bg-red-600 text-white">Get More Info.</button>
                     </div>
                 </div>
             </div>
