@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import logo from "../../../assets/logo.svg";
+import logo from "../../../assets/logo-footer.png";
 
 const Footer = () => {
     return (
         <div>
-            <footer className="footer p-10 bg-base-200 text-base-content">
+            <footer className="footer p-10 bg-black text-white">
                 <div>
                     <Link to="/">
                         <img src={logo} alt="car-doctor-logo-footer" />

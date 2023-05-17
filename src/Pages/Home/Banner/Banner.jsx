@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom"
-import banner1 from "../../../assets/images/banner/1.jpg"
-import banner2 from "../../../assets/images/banner/2.jpg"
-import banner3 from "../../../assets/images/banner/3.jpg"
-import banner4 from "../../../assets/images/banner/4.jpg"
+import { Link } from "react-router-dom";
+import slider1 from "../../../assets/images/homeCarousel/1.jpg";
+import slider2 from "../../../assets/images/homeCarousel/2.jpg";
+import slider3 from "../../../assets/images/homeCarousel/3.jpg";
+import slider4 from "../../../assets/images/homeCarousel/4.jpg";
 
 const Banner = () => {
     return (
@@ -10,7 +10,7 @@ const Banner = () => {
             <div className="carousel w-full rounded-lg md:h-[600px]">
                 {/* Home Banner Slider 01 */}
                 <div id="slide1" className="carousel-item relative w-full">
-                    <img src={banner1} alt="home-banner-1" className="w-full md:h-[600px]" />
+                    <img src={slider1} alt="home-banner-1" className="w-full md:h-[600px]" />
                     <div className="absolute h-full top-0 left-0 right-5 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)] md:pl-20 py-1/2 flex items-center">
                         <div className="text-white space-y-7 md:w-1/3">
                             <h2 className="text-5xl">Affordable Price For Car Servicing</h2>
@@ -31,7 +31,7 @@ const Banner = () => {
 
                 {/* Home Banner Slider 02 */}
                 <div id="slide2" className="carousel-item relative w-full">
-                    <img src={banner2} alt="home-banner-2" className="w-full md:h-[600px]" />
+                    <img src={slider2} alt="home-banner-2" className="w-full md:h-[600px]" />
                     <div className="absolute h-full top-0 left-0 right-5 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)] md:pl-20 py-1/2 flex items-center">
                         <div className="text-white space-y-7 md:w-1/3">
                             <h2 className="text-5xl">Affordable Price For Car Servicing</h2>
@@ -52,7 +52,7 @@ const Banner = () => {
 
                 {/* Home Banner Slider 03 */}
                 <div id="slide3" className="carousel-item relative w-full">
-                    <img src={banner3} alt="home-banner-3" className="w-full md:h-[600px]" />
+                    <img src={slider3} alt="home-banner-3" className="w-full md:h-[600px]" />
                     <div className="absolute h-full top-0 left-0 right-5 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)] md:pl-20 py-1/2 flex items-center">
                         <div className="text-white space-y-7 md:w-1/3">
                             <h2 className="text-5xl">Affordable Price For Car Servicing</h2>
@@ -73,7 +73,7 @@ const Banner = () => {
 
                 {/* Home Banner Slider 04 */}
                 <div id="slide4" className="carousel-item relative w-full">
-                    <img src={banner4} alt="home-banner-4" className="w-full md:h-[600px]" />
+                    <img src={slider4} alt="home-banner-4" className="w-full md:h-[600px]" />
                     <div className="absolute h-full top-0 left-0 right-5 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)] md:pl-20 py-1/2 flex items-center">
                         <div className="text-white space-y-7 md:w-1/3">
                             <h2 className="text-5xl">Affordable Price For Car Servicing</h2>
