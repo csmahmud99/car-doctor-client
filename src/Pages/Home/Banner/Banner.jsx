@@ -18,7 +18,7 @@ const Banner = () => {
                                 There are many variations of passages of  available, but the majority have suffered alteration in some form
                             </p>
                             <div>
-                                <button className="btn btn-outline btn-error bg-red-600 mr-5"><Link className="text-white">Discover More</Link></button>
+                                <button className="btn btn-outline bg-red-600 mr-5 text-white"><Link>Discover More</Link></button>
                                 <button className="btn btn-outline btn-error"><Link className="text-white">Latest Project</Link></button>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ const Banner = () => {
                                 There are many variations of passages of  available, but the majority have suffered alteration in some form
                             </p>
                             <div>
-                                <button className="btn btn-outline btn-error bg-red-600 mr-5"><Link className="text-white">Discover More</Link></button>
+                                <button className="btn btn-outline bg-red-600 mr-5 text-white"><Link>Discover More</Link></button>
                                 <button className="btn btn-outline btn-error"><Link className="text-white">Latest Project</Link></button>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ const Banner = () => {
                                 There are many variations of passages of  available, but the majority have suffered alteration in some form
                             </p>
                             <div>
-                                <button className="btn btn-outline btn-error bg-red-600 mr-5"><Link className="text-white">Discover More</Link></button>
+                                <button className="btn btn-outline bg-red-600 mr-5 text-white"><Link>Discover More</Link></button>
                                 <button className="btn btn-outline btn-error"><Link className="text-white">Latest Project</Link></button>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ const Banner = () => {
                                 There are many variations of passages of  available, but the majority have suffered alteration in some form
                             </p>
                             <div>
-                                <button className="btn btn-outline btn-error bg-red-600 mr-5"><Link className="text-white">Discover More</Link></button>
+                                <button className="btn btn-outline bg-red-600 mr-5 text-white"><Link>Discover More</Link></button>
                                 <button className="btn btn-outline btn-error"><Link className="text-white">Latest Project</Link></button>
                             </div>
                         </div>

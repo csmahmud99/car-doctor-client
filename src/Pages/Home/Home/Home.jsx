@@ -4,7 +4,7 @@ import HomeServices from "../HomeServices/HomeServices/HomeServices";
 
 const Home = () => {
     return (
-        <div className="mt-10 mb-20">
+        <div className="mt-10 mb-20 max-w-6xl mx-auto">
             <Banner />
             <HomeAbout />
             <HomeServices />
