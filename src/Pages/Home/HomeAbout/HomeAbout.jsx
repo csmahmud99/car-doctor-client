@@ -11,13 +11,13 @@ const HomeAbout = () => {
                         <img src={parts} className="w-1/2 absolute top-1/2 right-5 left-44 rounded-lg shadow-2xl border-8 border-white" />
                     </div>
                     <div className="md:w-1/2 space-y-5">
-                        <h3 className="text-xl text-red-600 font-bold">About Us</h3>
-                        <h1 className="text-5xl font-bold">We are qualified <br /> & of experience <br /> in this field</h1>
+                        <h2 className="text-xl text-red-600 font-bold">About Us</h2>
+                        <h3 className="text-4xl font-bold">We are qualified <br /> & of experience <br /> in this field</h3>
                         <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which do not look even slightly believable.
                         </p>
                         <p>
-                            the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                            The majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable.
                         </p>
                         <button className="btn btn-outline bg-red-600 text-white">Get More Info.</button>
                     </div>
