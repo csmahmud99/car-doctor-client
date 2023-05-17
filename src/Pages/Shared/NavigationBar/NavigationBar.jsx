@@ -41,7 +41,7 @@ const NavigationBar = () => {
                             <span className="badge badge-xs badge-primary indicator-item"></span>
                         </div>
                     </button>
-                    <button className="btn btn-outline btn-warning">Appointment</button>
+                    <button className="btn btn-outline text-red-600">Appointment</button>
                 </div>
             </div>
         </div>

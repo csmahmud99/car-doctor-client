@@ -1,9 +1,11 @@
-
+import Banner from "../Banner/Banner";
+import HomeAbout from "../HomeAbout/HomeAbout";
 
 const Home = () => {
     return (
-        <div>
-            <h2>This is Home</h2>
+        <div className="my-8">
+            <Banner />
+            <HomeAbout />
         </div>
     );
 };

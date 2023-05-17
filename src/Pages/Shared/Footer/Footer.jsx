@@ -9,7 +9,7 @@ const Footer = () => {
                     <Link to="/">
                         <img src={logo} alt="car-doctor-logo-footer" />
                     </Link>
-                    <p>Car Doctor Ltd.<br />Providing reliable medical services since 1992</p>
+                    <p>Car Doctor Ltd.<br />Providing reliable car servicing since 1992</p>
                 </div>
                 <div>
                     <span className="footer-title">Services</span>
