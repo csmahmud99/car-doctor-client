@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../../assets/logo.svg";
 
 const Footer = () => {
@@ -5,7 +6,9 @@ const Footer = () => {
         <div>
             <footer className="footer p-10 bg-base-200 text-base-content">
                 <div>
-                    <img src={logo} alt="car-doctor-logo-footer" />
+                    <Link to="/">
+                        <img src={logo} alt="car-doctor-logo-footer" />
+                    </Link>
                     <p>Car Doctor Ltd.<br />Providing reliable medical services since 1992</p>
                 </div>
                 <div>
