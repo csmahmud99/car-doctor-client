@@ -8,8 +8,8 @@ const NavigationBar = () => {
 
     const handleLogOut = () => {
         logOut()
-            .then( () => {})
-            .catch( error => console.log(error));
+            .then(() => { })
+            .catch(error => console.log(error));
     };
 
     const navItems = <>
@@ -19,7 +19,10 @@ const NavigationBar = () => {
         <li><Link to="#">Blog</Link></li>
         <li><Link to="#">Contact</Link></li>
         {user?.email ?
-            <li><button onClick={handleLogOut} className="btn btn-outline bg-red-600 text-white">Log Out</button></li>
+            <>
+                <li><Link to="/bookings">My Bookings</Link></li>
+                <li><button onClick={handleLogOut} className="btn btn-outline bg-red-600 text-white">Log Out</button></li>
+            </>
             : <li><Link to="/login"><button className="btn btn-outline bg-red-600 text-white">Log In</button></Link></li>
         }
     </>
